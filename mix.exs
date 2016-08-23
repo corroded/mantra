@@ -38,6 +38,7 @@ defmodule Mantra.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
+     {:oauth2, "~> 0.6.0"}, # Temp fix for: https://github.com/ueberauth/ueberauth_github/issues/12
      {:ueberauth, "~> 0.3"},
      {:ueberauth_github, "~> 0.2"}]
   end
